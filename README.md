@@ -1,13 +1,15 @@
 
 # OCR Evaluation Tool – UAS Astuti Yeirene Panggabean
 
+
 Struktur Proyek
+
 uas_astuti/
-├── generate_ground_truth_csv.py   # Script untuk menghasilkan ground_truth.csv dari label .txt
-├── ocr_eval.py                    # Script evaluasi OCR hasil terhadap ground truth
-├── log.txt                        # Log hasil evaluasi
-├── results.csv                    # Output evaluasi dalam bentuk CSV
-├── test/
+-generate_ground_truth_csv.py   # Script untuk menghasilkan ground_truth.csv dari label .txt
+-ocr_eval.py                    # Script evaluasi OCR hasil terhadap ground truth
+-log.txt                        # Log hasil evaluasi
+-results.csv                    # Output evaluasi dalam bentuk CSV
+-test/
 │   ├── ground_truth.csv          # File CSV hasil gabungan label ground truth
 │   ├── testXXX_X.jpg             # Gambar uji
 │   └── testXXX_X.txt             # Label ground truth dalam file teks
