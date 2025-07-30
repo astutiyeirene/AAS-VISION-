@@ -15,9 +15,12 @@ uas_astuti/
 -results.csv                    # Output evaluasi dalam bentuk CSV
 
 -test/
-│   ├── ground_truth.csv          # File CSV hasil gabungan label ground truth
-│   ├── testXXX_X.jpg             # Gambar uji
-│   └── testXXX_X.txt             # Label ground truth dalam file teks
+   1. ground_truth.csv          # File CSV hasil gabungan label ground truth
+      
+   2. testXXX_X.jpg             # Gambar uji
+      
+   3.  testXXX_X.txt             # Label ground truth dalam file teks
+      
 ```
 
 Deskripsi Proyek
